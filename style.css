@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif, Helvetica, Arial;
+    margin: 0px;
+    font-size: 1vw;
+}
+
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: "Inria Sans", sans-serif;
+}
+
+ul {
+    margin: 0px ;
+}
+
+body > header {
+    background-color: rgb(205, 230, 183);
+    color: darkolivegreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+body > header > nav > ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body > header > nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-family: "Inria Sans", sans-serif;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer {
+    background-color:rgb(205, 230, 183);
+    display: flex;
+
+}
+
+img {
+    border-radius: 50%;
+}
+
+h2 {
+    font-family: "Inria Sans", sans-serif;
+}
+
+body {
+    font-family: "Inria Sans", sans-serif;
+}
+
+body > header > nav > ul {
+    display: flex;
+}
+
+body > header > nav > ul > li {
+    padding: 10px;
+    margin: 16px;
+    border: 1px solid white;
+    border-radius: 10%;
+    border-width: 3px;
+}
+
+#main-content {
+    display: flex;
+    width: 100%;
+}
+
+#main-content aside {
+    margin: 16px;
+    width: 20%;
+    justify-content: space-around;
+}
